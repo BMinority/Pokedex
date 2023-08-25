@@ -18,10 +18,10 @@ Desenvolvi este projeto com a finalidade de treinar minhas habilidades como dese
 - [x] Aba de visualização de texto e imagens
 
 ## Layout
-![Dispositivo Pokedex](./Assets/pokedex.png)
+<img src="./Assets/pokedex.png" style="width: 350px">
 
 ## Demonstração
-
+[Pokedex](https://bminority.github.io/Pokedex/)
 
 ## Autor
 Bruno Celho Muniz Silva
