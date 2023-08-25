@@ -1,0 +1,253 @@
+/* Estilos gerais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos da Pokedex */
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+
+  padding-top: 1rem;
+
+}
+
+#corpoPokedex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: red;
+  border-radius: 20px;
+
+  max-width: 80vh;
+  height: auto;
+
+  padding: 10px;
+  box-shadow: inset -4px 4px 30px rgba(0, 0, 0, 0.664);
+
+}
+
+#luz-musica {
+  width: 100%;
+  position: relative;
+}
+
+.circulo-vermelho {
+  background-color: rgb(156, 18, 18);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.664);
+
+  width: 25px;
+  height: 25px;
+
+  border-radius: 50%;
+
+  position: absolute;
+  
+  top: 0;
+  left: 0;
+  transition: 0.3s;
+}
+
+h1 {
+  color: #fff;
+}
+
+#informacoes {
+  text-align: center;
+
+  margin: 20px;
+
+  width: 300px;
+  height: 8rem;
+
+  background-color: black;
+  box-shadow: inset -2px -2px 15px 2px black;
+
+  padding: 3px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+#informacoes p {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+
+#exibicao {
+  background-color: darkslategray;
+  border-radius: 20px;
+
+  height: 200px;
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+
+  transition: 0.3s;
+  box-shadow: inset -2px -2px 15px 5px black;
+}
+
+
+#pokemon-img {
+  display: block;
+  margin: auto;
+  top: 0;
+  width: 70%;
+}
+
+#nome-pokemon {
+  background-color: darkslategray;
+
+  border-radius: 20px;
+  height: 50px;
+  width: 300px;
+
+  margin-top: 3%;
+
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  
+  transition: 0.3s;
+  box-shadow: inset -2px -2px 15px 2px black;
+}
+
+#nome-pokemon h2 {
+  color: black;
+}
+
+#boxBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#boxBtn button {
+  background-color: #fff;
+  color: red;
+
+  border-radius: 15px;
+
+  font-size: 1rem;
+
+  padding: 10px 20px;
+  margin: 0 10px;
+
+  cursor: pointer;
+}
+
+
+
+#boxBtn2 {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  margin-top: 20px;
+
+  gap: 5px;
+}
+
+#boxBtn2 input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 2px;
+
+  width: 30vh;
+  border-radius: 10px;
+}
+
+#boxBtn2 button {
+  background-color: #fff;
+  color: blue;
+
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+
+  font-size: 1rem;
+
+  margin-left: 10px;
+
+  text-align: center;
+
+  cursor: pointer;
+}
+
+#btnLigarDesligar {
+  align-items: center;
+
+  background-color: blue;
+
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+
+  margin-left: 5px;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+
+  margin-top: 0.5rem
+}
+
+/* Tela pequena (smartphone) */
+@media (max-width: 767px) {
+  #container {
+    padding-bottom: 1rem;
+  }
+
+  #corpoPokedex {
+    width: 95%;
+  }
+
+  #informacoes {
+    margin: 10px;
+  }
+
+  #informacoes p {
+    font-size: 0.8rem;
+  }
+
+  #exibicao {
+    height: 20vh;
+  }
+
+  #pokemon-img {
+    width: 35%;
+  }
+
+  #nome-pokemon {
+    margin-top: 3%;
+  }
+
+  #nome-pokemon h2 {
+    color: black;
+    font-size: 1rem;
+  }
+
+  #boxBtn2 input {
+    width: 20vh;
+  }
+
+  footer {
+    margin-top: 0;
+  }
+}
