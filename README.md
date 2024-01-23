@@ -24,5 +24,5 @@ Desenvolvi este projeto com a finalidade de treinar minhas habilidades como dese
 [Pokedex](https://bminority.github.io/Pokedex/)
 
 ## Autor
-Bruno Celho Muniz Silva
+Bruno Coelho Muniz Silva
 [Linkedin](https://www.linkedin.com/in/bruno-coelho-97b630220/)
